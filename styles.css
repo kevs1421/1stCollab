@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #cb7156;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+img {
+  margin-top: 100px;
+  width: 70%;
+  display: block;
+  height: auto;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+.main-head {
+  font-size: 70px;
+  font-family: Lucida sans-serif;
+}
+
+div.content {
+  margin-left: 250px;
+  margin-right: 150px;
+  padding: 100px 16px;
+  height: 100px;
+  display: block;
+}
+
+@media screen and (max-width: 1000px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+h3,
+h5,
+h1 {
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.sub-head {
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+ul.icon {
+  font-size: 40px;
+}
+ul.interests {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+ul.flow {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+div.exp {
+  padding: 100px 16px;
+  padding-bottom: 100px 16px;
+  height: 100px;
+  display: block;
+}
+div.education {
+  padding: 100px 16px;
+  padding-bottom: 100px 16px;
+  height: 100px;
+  display: block;
+}
+div.skills {
+  padding: 100px 16px;
+  padding-bottom: 100px 16px;
+  height: 100px;
+  display: block;
+}
+div.interests {
+  padding: 100px 16px;
+  padding-bottom: 100px 16px;
+  height: 100px;
+  display: block;
+}
+div.testimonials {
+  padding: 100px 16px;
+  padding-bottom: 100px 16px;
+  height: 100px;
+  display: block;
+}
+
+/*Testimonial style*/
+.container {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    text-align: center;
+  }
+  .container img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
+img.test {
+  margin-top: 100px;
+  width: 10%;
+  display: block;
+  height: auto;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
+}
