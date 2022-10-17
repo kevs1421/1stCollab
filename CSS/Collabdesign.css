@@ -1,5 +1,13 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: borde-box;
+	list-style: none;
+	font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .good {
-	width: 1300px;
+	width: 1000px;
 	margin: 0 auto;
 }
 .profile {
@@ -12,9 +20,7 @@
 	top: 190px;
 	left: 60px;
 }
-h1, h2 {
-	letter-spacing: -5px;
-}
+
 .text-content {
 	height: 100vh;
 	width: 100%;
@@ -158,9 +164,12 @@ ul li:hover a{
 	color: deeppink;
 }
 .content-area {
-	margin-left: 230px;
-	padding: 0 10px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	
 }
+
 .profile1 {
 	border-radius: 10px;
 	border: 1px solid;
@@ -171,5 +180,4 @@ ul li:hover a{
 html {
 	scroll-behavior: smooth;
 }
-	
 	
